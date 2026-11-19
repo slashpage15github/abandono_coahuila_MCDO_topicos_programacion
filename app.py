@@ -153,7 +153,7 @@ if artefacto is not None:
                             # Limpiar tabla temporal
                             conn.execute(text("DROP TABLE IF EXISTS tmp_predicciones_abandono;"))
                     
-                    st.success(f"¡Predicción realizada y **{len(df_sql)} registros actualizados** en tu base de datos MySQL con éxito!")
+                    st.success(f"¡Predicción realizada y **{len(df_sql)} registros actualizados** en la base de datos MySQL con éxito!")
 
                     # --- RESUMEN DE RESULTADOS ---
                     st.markdown("---")
