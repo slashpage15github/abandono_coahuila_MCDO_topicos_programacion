@@ -195,7 +195,7 @@ if artefacto is not None:
         st.header("Evaluación Individual de un Alumno por CURP")
         st.write("Introduce la CURP del alumno para extraer sus datos de la base de datos y evaluar su riesgo:")
         
-        POWER_BI_URL = "https://app.powerbi.com/view?r=eyJrIjoiMWIwYjk4ZmUtNWE4ZS00YjE5LThjMjAtMWQ1NDEwYTE2NjhhIiwidCI6IjUxZmZlNDRiLTNhMjktNDQ0Ny04YzNiLTE4MzdiODllMDYxNCIsImMiOjR9&pageName=ReportSection83eb85cc49c36ef1040a"
+        POWER_BI_URL = "https://app.powerbi.com/view?r=eyJrIjoiODljZWI5YTUtYjQxNi00N2I5LTgwNDAtNDk5NTEwNTUyZjZiIiwidCI6IjUxZmZlNDRiLTNhMjktNDQ0Ny04YzNiLTE4MzdiODllMDYxNCIsImMiOjR9"
         
         st.link_button(
                             "📊 Abrir tablero en Power BI",
