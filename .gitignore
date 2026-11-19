@@ -1,1 +1,1 @@
-.venv/, venv/, __pycache__/, *.pyc, .env
+.venv/, venv/, __pycache__/, *.pyc, .env,trainning_secu.csv
