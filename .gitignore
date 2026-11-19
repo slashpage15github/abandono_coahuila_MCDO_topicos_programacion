@@ -1,1 +1,8 @@
-.venv/, venv/, __pycache__/, *.pyc, .env,trainning_secu.csv
+.venv/
+venv/
+__pycache__/
+*.pyc
+.env
+*.csv
+*_trash*
+.ipynb_checkpoints/
