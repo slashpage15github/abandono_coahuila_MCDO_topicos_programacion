@@ -19,7 +19,7 @@ DB_TABLE = "alumnos_en_curso_escolar"
 # 1. Configuración de la Página
 # ----------------------------------------------------
 st.set_page_config(
-    page_title="Predicción de Abandono Escolar",
+    page_title="Predicción de Abandono Escolar Secundaria",
     page_icon="🎓",
     layout="wide"
 )
@@ -38,7 +38,7 @@ def cargar_modelo():
 
 artefacto = cargar_modelo()
 
-st.title("Sistema de Alerta Temprana - Predicción de Abandono Escolar")
+st.title("Sistema de Alerta Temprana - Predicción de Abandono Escolar Secundaria")
 st.markdown("Analítica predictiva")
 
 if artefacto is not None:
